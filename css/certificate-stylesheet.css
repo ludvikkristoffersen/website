@@ -1,0 +1,70 @@
+/* certificate-style.css */
+body {
+    font-family: "Hack";
+    background-color: #000000;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+.go-back {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+}
+a {
+    color: rgb(255,255,255);;
+}
+
+.certificate {
+    max-width: 800px;
+    margin: 0 auto 60px; /* Adjust the margin as needed */
+    background-color: #000000;
+    overflow: hidden;
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+}
+
+.certificate-content {
+    display: flex;
+}
+
+img {
+    width: 50%; /* Image takes the left half of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.certificate-details {
+    flex: 1; /* Take up available space in the container */
+    padding: 20px;
+    text-align: left; /* Align text to the left within the details */
+}
+
+h3 {
+    color: #cacaca;
+}
+
+p {
+    color: #a7a7a7;
+    margin: 10px 0;
+}
+
+.certificate-details a {
+    color: #ffffff;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Move the element down by 20px initially */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move the element back to its original position */
+    }
+}
