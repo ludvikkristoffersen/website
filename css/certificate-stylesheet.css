@@ -1,4 +1,3 @@
-/* certificate-style.css */
 body {
     font-family: "Hack";
     background-color: #000000;
@@ -9,13 +8,15 @@ h1{
     text-align: center;
     color: #ffffff;
     padding: 20px 0;
-    animation: fadeInUp 1s ease-out forwards;
+    animation: fadeInUp 1s ease-out forwards 0s;
+    opacity: 0;
 }
 .go-back {
     text-align: center;
     margin-bottom: 50px;
     margin-top: -30px;
-    animation: fadeInUp 1s ease-out forwards 1s;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards 0.5s;
 }
 a {
     color: rgb(255,255,255);;
@@ -27,7 +28,7 @@ a {
     background-color: #000000;
     overflow: hidden;
     opacity: 0;
-    animation: fadeInUp 1s ease-out forwards 2s;
+    animation: fadeInUp 1s ease-out forwards 1s;
 }
 
 .certificate-content {
