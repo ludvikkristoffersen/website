@@ -14,13 +14,13 @@ body {
 h1 {
     font-family: "Hack";
     color: rgb(255, 255, 255);
-    animation: fadeInUp 1s ease-out forwards 0s; /* Apply the animation */
+    animation: fadeInUp 1s ease-out forwards 0s;
 }
 h3 {
     font-family: "Hack";
     color: rgb(204, 204, 204);
     font-size: 16px;
-    animation: fadeInUp 1s ease-out forwards 2s; /* Apply the animation */
+    animation: fadeInUp 1s ease-out forwards 2s;
 }
 
 h1, h3 {
@@ -45,7 +45,7 @@ h1, h3 {
     transition: background-color 0.3s, transform 0.3s;
     border: none;
     border-radius: 50%;
-    animation: fadeInUp 1s ease-out forwards 4s; /* Apply the animation */
+    animation: fadeInUp 1s ease-out forwards 4s;
 }
 
 .button-with-logo img {
@@ -58,15 +58,15 @@ h1, h3 {
     border: 2px solid #ffffff;
 }
 .button-with-logo:hover img {
-    filter:invert(100%) /* Adjust the brightness of the image on hover (you can experiment with different filter functions) */
+    filter:invert(100%)
 }
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Move the element down by 20px initially */
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Move the element back to its original position */
+        transform: translateY(0);
     }
 }
