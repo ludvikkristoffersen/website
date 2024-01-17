@@ -60,6 +60,11 @@ h1, h3 {
 .button-with-logo:hover img {
     filter:invert(100%)
 }
+
+h1, h3, .button-with-logo {
+    opacity: 0;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
