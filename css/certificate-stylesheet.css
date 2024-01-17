@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Inter";
+    src: url(/static/Inter-Medium.ttf);
+}
 body {
-    font-family: "Hack";
+    font-family: "Inter";
     background-color: #000000;
     margin: 0;
 }
