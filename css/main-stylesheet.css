@@ -20,7 +20,7 @@ h3 {
     font-family: "Hack";
     color: rgb(204, 204, 204);
     font-size: 16px;
-    animation: fadeInUp 1.5s ease-out forwards; /* Apply the animation */
+    animation: fadeInUp 2s ease-out forwards; /* Apply the animation */
 }
 
 h1, h3 {
@@ -45,7 +45,7 @@ h1, h3 {
     transition: background-color 0.3s, transform 0.3s;
     border: none;
     border-radius: 50%;
-    animation: fadeInUp 2s ease-out forwards; /* Apply the animation */
+    animation: fadeInUp 4s ease-out forwards; /* Apply the animation */
 }
 
 .button-with-logo img {
