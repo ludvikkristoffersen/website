@@ -15,7 +15,7 @@ h1{
     text-align: center;
     margin-bottom: 50px;
     margin-top: -30px;
-    animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+    animation: fadeInUp 1s ease-out forwards 1s;
 }
 a {
     color: rgb(255,255,255);;
@@ -23,11 +23,11 @@ a {
 
 .certificate {
     max-width: 800px;
-    margin: 0 auto 60px; /* Adjust the margin as needed */
+    margin: 0 auto 60px;
     background-color: #000000;
     overflow: hidden;
-    opacity: 0; /* Set initial opacity to 0 */
-    animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards 2s;
 }
 
 .certificate-content {
@@ -35,14 +35,14 @@ a {
 }
 
 img {
-    width: 50%; /* Image takes the left half of the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%;
+    height: auto;
 }
 
 .certificate-details {
-    flex: 1; /* Take up available space in the container */
+    flex: 1;
     padding: 20px;
-    text-align: left; /* Align text to the left within the details */
+    text-align: left;
 }
 
 h3 {
@@ -61,10 +61,10 @@ p {
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Move the element down by 20px initially */
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Move the element back to its original position */
+        transform: translateY(0);
     }
 }
