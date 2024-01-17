@@ -15,12 +15,14 @@ h1 {
     font-family: "Hack";
     color: rgb(255, 255, 255);
     animation: fadeInUp 1s ease-out forwards 0s;
+    opacity: 0;
 }
 h3 {
     font-family: "Hack";
     color: rgb(204, 204, 204);
     font-size: 16px;
     animation: fadeInUp 1s ease-out forwards 1s;
+    opacity: 0;
 }
 
 h1, h3 {
@@ -46,6 +48,7 @@ h1, h3 {
     border: none;
     border-radius: 50%;
     animation: fadeInUp 1s ease-out forwards 2s;
+    opacity: 0;
 }
 
 .button-with-logo img {
@@ -59,10 +62,6 @@ h1, h3 {
 }
 .button-with-logo:hover img {
     filter:invert(100%)
-}
-
-h1, h3, .button-with-logo {
-    opacity: 0;
 }
 
 @keyframes fadeInUp {
